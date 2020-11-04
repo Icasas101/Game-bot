@@ -1,0 +1,14 @@
+--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]
+
+--[[ The onLoad event is called after the game save finishes loading. --]]
+green_pawn_guid = '9bd7fd'
+function onLoad()
+    --[[ print('onLoad!') --]]
+    green_pawn = getObjectFromGUID(green_pawn_guid)
+    green_pawn.setName('eww green')
+end
+
+--[[ The onUpdate event is called once per frame. --]]
+function onUpdate()
+    --[[ print('onUpdate loop!') --]]
+end
