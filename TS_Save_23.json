@@ -1,0 +1,2567 @@
+{
+  "SaveName": "clearing locations",
+  "GameMode": "Flex Table",
+  "Date": "2/12/2021 4:01:58 PM",
+  "VersionNumber": "v13.0.5",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "Table_None",
+  "Sky": "Sky_Museum",
+  "Note": "[b]Flex Table[/b]\n\nClick the white button on the leg near the white seat to view your options.\n\nChange the tabletop image.\nSave a tabletop image for quick recall.\nChange the width and depth of the table.\n\n\n\n\n\n\n\n\n\n\n\n\nThis table is actually made up of multiple bits, so you can't save+import it into another room. But you can bring the items from another room into here.",
+  "Rules": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0
+  },
+  "ComponentTags": {
+    "labels": []
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "DecalPallet": [],
+  "LuaScript": "--- Root (Fully Scripted) 0.0 ---\r\n--- Project by Josh Ballagh, Isabella Casas, and Ashley Chen\r\n--- Designed for our Computer Science Capstone Project at Tulane University\r\n\r\n--- Offers: Fully scripted base game of Root, with AI!\r\n\r\n--- TODO:\r\n--- Implement clearings (see: instantiating object classes)\r\n--- Implement putter and getter functions for clearings\r\n\r\nclearingA_GUID = '19277a'\r\nclearingA_scriptzone = getObjectFromGUID(clearingA_GUID)\r\n\r\nmarquisWarrior_GUID = '762d03'\r\nmarquisWarrior = getObjectFromGUID(marquisWarrior_GUID)\r\n\r\n--- CLEARING CLASS ---\r\n\r\n-- Meta class\r\n---  Suit, Build Slots, NumWarriors (Faction), Buildings, Ruins, Adjacent\r\nClearing = {scriptzone, suit, adjacent, build_slots, warriors, buildings, ruins}\r\n\r\n--- Derived class method new\r\nfunction Clearing:new(o, scriptzone, suit)\r\n  o = o or {}\r\n  setmetatable(o, self)\r\n  self.__index = self\r\n  self.scriptzone = scriptzone or ''\r\n  self.suit = suit or '' --- String Suit, will take Fox, Rabbit, or Bird\r\n  self.adjacent = {} --- List of Clearing objects that are adjacent to this Clearing\r\n  self.build_slots = 0 --- Number of build slots in this Clearing\r\n  self.warriors = {}\r\n  --- 4-tuple of integers that shows number of warriors in this Clearing by faction such that {Marquise, Eyrie, Woodland, Vagabond}\r\n  --- Though the Vagabond is not a warrior per the games rules, we will use this data structure to represent his presence in a clearing regardless\r\n  --- self.warriors[vagabond] = 0 if Vagabond absent, 1 if Vagabond present\r\n  self.warriors['Marquise'] = 0\r\n  self.warriors['Eyrie'] = 0\r\n  self.warriors['Woodland'] = 0\r\n  self.warriors['Vagabond'] = 0\r\n  self.buildings = {} --- List of Building objects in clearing.\r\n  self.ruins = {} --- List of Ruins objects in clearing.\r\n  return o\r\nend\r\n\r\n--- Derived class method getWarriors\r\n--- takes string faction such that faction is Marquise, Eyrie, Woodland, or Vagabond\r\n--- returns int number of warriors of specified faction\r\nfunction Clearing:getWarriors(faction)\r\n  numWarriors = 0\r\n  numWarriors = self.warriors[faction]\r\n  return numWarriors\r\nend\r\n\r\n--- Derived class method putWarriors\r\n--- takes string faction such that faction is Marquise, Eyrie, Woodland, or Vagabond\r\n--- takes int num indicating number of warriors to place on clearing\r\n--- places TTS object in corresponding clearing on table\r\n--- returns null\r\n--- I'm thinking this can be used for initial faction setup, will add function that\r\n--- allows for warrior movement later\r\nfunction Clearing:putWarriors(faction, num)\r\n  --- Table containing positions of each clearing (so objects have somewhere to snap to)\r\n  clearing_Positions = {\r\n    fox_1 = {-25, 0.75, 20.50}, -- upper left corner\r\n    mouse_1 = {-25, 0.75, 7.50}, -- middle left\r\n    rabbit_1 = {-25, 0.75, -19.0}, -- bottom left corner\r\n    rabbit_2 = {3, 0.75, 23.5}, -- upper middle top of board\r\n    rabbit_3 = {-4.5, 0.75, 13}, -- below upper middle\r\n    fox_2 = {-10.5, 0.75, -4}, -- below rabbit_3\r\n    fox_3 = {-8, 0.75, -22}, -- to right of rabbit_1\r\n    mouse_2 = {9.5, 0.75, 0}, -- right of fox_2\r\n    mouse_3 = {5.5, 0.75, -17}, -- right of fox_3\r\n    mouse_4 = {24, 0.75, 16}, -- upper right corner\r\n    fox_4 = {27, 0.75, -0.5}, -- center right\r\n    rabbit_4 = {22, 0.75, -21} --bottom right corner\r\n  }\r\n  self.warriors[faction] = self.warriors[faction] + num\r\n  if faction == 'Marquise' then\r\n    spawnParams = {\r\n      type = 'Figurine',\r\n      position = clearing_Positions[\"rabbit_4\"],\r\n      scale = {x = 1, y = 1, z = 1}\r\n    }\r\n\r\n    marquiseParams_1 = {\r\n      type = \"Custom_Model\",\r\n      position = clearing_Positions[\"rabbit_4\"],\r\n      scale = {x=2, y=2, z=2}\r\n    }\r\n\r\n    marquiseParams_2 = {\r\n      mesh = 'httpcloud3steamusercontentcomugc1770446424994417683036284890A270F47B8F5779DD21B136EBDA76F47.obj',\r\n      normal = 'httpcloud3steamusercontentcomugc177044642499443418943876DC6F423AFB949E5D8311AD154952A062682.png',\r\n      diffuse = 'httpcloud3steamusercontentcomugc177044642499443418943876DC6F423AFB949E5D8311AD154952A062682.png',\r\n      type = 1,\r\n      material = 2,\r\n      cast_shadows = true\r\n    }\r\n  end\r\n  for i = 1, num do\r\n    marquisWarrior = spawnObject(marquiseParams_1).setCustomObject(marquiseParams_2)\r\n  end\r\n\r\n  -- TODO: Player interface work. Aka, actually put game models on the table in TTS. I guess tell player to input number and it will place that many objects on table?\r\nend\r\n\r\n--- ONLOAD - let's test this new code, shall we?\r\n--- Instantiate a clearing then read the number of Marquise warriors there (correct answer should be 0)\r\nfunction onLoad(save_state)\r\n  ClearingA = Clearing:new(o, clearingA_scriptzone, 'Fox')\r\n  cat_count = ClearingA:getWarriors('Marquise')\r\n  printToAll(\"Cat count in Clearing A = \")\r\n  printToAll(cat_count)\r\n  printToAll(\"Marquise recruits 3 cats to Clearing A!\")\r\n  ClearingA:putWarriors('Marquise', 1)\r\n  printToAll(\"Let's see the cat count now!\")\r\n  printToAll(\"Cat count in Clearing A = \")\r\n  cat_count = ClearingA:getWarriors('Marquise')\r\n  printToAll(cat_count)\r\nend\r\n",
+  "LuaScriptState": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "ObjectStates": [
+    {
+      "GUID": "8ed68b",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 5.0,
+        "posZ": -64.74999,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 11.8350019,
+        "scaleY": 7.002465,
+        "scaleZ": 4.04115963
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "White",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "bb943b",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -64.75,
+        "posY": 5.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 11.7423859,
+        "scaleY": 7.0,
+        "scaleZ": 4.08174229
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.856,
+        "g": 0.09999997,
+        "b": 0.09399996,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Red",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "63b8b2",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 5.0,
+        "posZ": 64.74999,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 11.8350019,
+        "scaleY": 7.0,
+        "scaleZ": 4.041209
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.191999972,
+        "g": 0.701,
+        "b": 0.167999953,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Green",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "70eb24",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 64.75,
+        "posY": 5.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 270.0,
+        "rotZ": 0.0,
+        "scaleX": 11.7421656,
+        "scaleY": 7.0,
+        "scaleZ": 4.08167
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.117999978,
+        "g": 0.53,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Blue",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "afc863",
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -45.0,
+        "posY": -9.0,
+        "posZ": -45.0,
+        "rotX": 6.536436E-07,
+        "rotY": -2.39176334E-05,
+        "rotZ": -3.84849864E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/879750610978795929/723C50F43FAB3DE3DC12CB8460536E8CB34B60A3/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 2,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "c8edca",
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -45.0,
+        "posY": -9.0,
+        "posZ": 45.0,
+        "rotX": 6.536436E-07,
+        "rotY": 90.0,
+        "rotZ": -3.84849864E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/879750610978795929/723C50F43FAB3DE3DC12CB8460536E8CB34B60A3/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 2,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "393bf7",
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 45.0,
+        "posY": -9.0,
+        "posZ": 45.0,
+        "rotX": 6.536436E-07,
+        "rotY": 180.0,
+        "rotZ": -3.84849864E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/879750610978795929/723C50F43FAB3DE3DC12CB8460536E8CB34B60A3/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 2,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "12c65e",
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 45.0,
+        "posY": -9.0,
+        "posZ": -45.0,
+        "rotX": 6.536436E-07,
+        "rotY": 270.0,
+        "rotZ": -3.84849864E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/879750610978795929/723C50F43FAB3DE3DC12CB8460536E8CB34B60A3/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 2,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "bd69bd",
+      "Name": "Chinese_Checkers_Piece",
+      "Transform": {
+        "posX": 64.16,
+        "posY": -0.259998322,
+        "posZ": -67.12,
+        "rotX": 0.00190076465,
+        "rotY": 180.0,
+        "rotZ": 0.000379891542,
+        "scaleX": 1.6499995,
+        "scaleY": 1.6499995,
+        "scaleZ": 1.6499995
+      },
+      "Nickname": "Flex Table Control",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 1,
+      "LuaScript": "tableHeightOffset = -9\n\nfunction onSave()\n    saved_data = JSON.encode({tid=tableImageData, cd=checkData})\n    --saved_data = \"\"\n    return saved_data\nend\n\nfunction onload(saved_data)\n    --Loads the tracking for if the game has started yet\n    if saved_data ~= \"\" then\n         local loaded_data = JSON.decode(saved_data)\n         tableImageData = loaded_data.tid\n         checkData = loaded_data.cd\n    else\n        tableImageData = {}\n        checkData = {move=false, scale=false}\n    end\n\n    --Disables interactable status of objects with GUID in list\n    for _, guid in ipairs(ref_noninteractable) do\n        local obj = getObjectFromGUID(guid)\n        if obj then obj.interactable = false end\n    end\n\n    --Establish references to table parts\n    obj_leg1 = getObjectFromGUID(\"afc863\")\n    obj_leg2 = getObjectFromGUID(\"c8edca\")\n    obj_leg3 = getObjectFromGUID(\"393bf7\")\n    obj_leg4 = getObjectFromGUID(\"12c65e\")\n    obj_surface = getObjectFromGUID(\"4ee1f2\")\n    obj_side_top = getObjectFromGUID(\"35b95f\")\n    obj_side_bot = getObjectFromGUID(\"f938a2\")\n    obj_side_lef = getObjectFromGUID(\"9f95fd\")\n    obj_side_rig = getObjectFromGUID(\"5af8f2\")\n\n    controlActive = false\n    createOpenCloseButton()\nend\n\n\n\n--Activation/deactivation of control panel\n\n\n\n--Activated by clicking on\nfunction click_toggleControl(_, color)\n    if permissionCheck(color) then\n        if not controlActive then\n            --Activate control panel\n            controlActive = true\n            self.clearButtons()\n            createOpenCloseButton()\n            createSurfaceInput()\n            createSurfaceButtons()\n            createScaleInput()\n            createScaleButtons()\n        else\n            --Deactivate control panel\n            controlActive = false\n            self.clearButtons()\n            self.clearInputs()\n            createOpenCloseButton()\n\n        end\n    end\nend\n\n\n\n\n--Table surface control\n\n\n\n--Changes table surface\nfunction click_applySurface(_, color)\n    if permissionCheck(color) then\n        updateSurface()\n        broadcastToAll(\"New Table Image Applied\", {0.2,0.9,0.2})\n    end\nend\n\n--Saves table surface\nfunction click_saveSurface(_, color)\n    if permissionCheck(color) then\n        local nickname = self.getInputs()[1].value\n        local url = self.getInputs()[2].value\n        if nickname == \"\" then\n            --No nickname\n            broadcastToAll(\"Please supply a nickname for this save.\", {0.9,0.2,0.2})\n        else\n            --Nickname exists\n\n            if findInImageDataIndex(url, nickname) == nil then\n                --Save doesn't exist already\n                table.insert(tableImageData, {url=url, name=nickname})\n                broadcastToAll(\"Image URL saved to memory.\", {0.2,0.9,0.2})\n                --Refresh buttons\n                self.clearButtons()\n                createOpenCloseButton()\n                createSurfaceButtons()\n                createScaleButtons()\n            else\n                --Save exists already\n                broadcastToAll(\"Memory already contains a save with this Name or URL. Delete it first.\", {0.9,0.2,0.2})\n            end\n        end\n    end\nend\n\n--Loads table surface\nfunction click_loadMemory(_, color, index)\n    if permissionCheck(color) then\n        self.editInput({index=0, value=tableImageData[index].name})\n        self.editInput({index=1, value=tableImageData[index].url})\n        updateSurface()\n        broadcastToAll(\"Table Image Loaded\", {0.2,0.9,0.2})\n    end\nend\n\n--Deletes table surface\nfunction click_deleteMemory(_, color, index)\n    if permissionCheck(color) then\n        table.remove(tableImageData, index)\n        self.clearButtons()\n        createOpenCloseButton()\n        createSurfaceButtons()\n        createScaleButtons()\n        broadcastToAll(\"Element Removed from Memory\", {0.2,0.9,0.2})\n    end\nend\n\n--Updates surface from the values in the input field\nfunction updateSurface()\n    local customInfo = obj_surface.getCustomObject()\n    customInfo.diffuse = self.getInputs()[2].value\n    obj_surface.setCustomObject(customInfo)\n    obj_surface = obj_surface.reload()\nend\n\n\n\n--Table Scale control\n\n\n\n--Applies Scale to table pieces\nfunction click_applyScale(_, color)\n    if permissionCheck(color) then\n        local newWidth = tonumber(self.getInputs()[3].value)\n        local newDepth = tonumber(self.getInputs()[4].value)\n        if type(newWidth) ~= \"number\" then\n            broadcastToAll(\"Invalid Width\", {0.9,0.2,0.2})\n            return\n        elseif type(newDepth) ~= \"number\" then\n            broadcastToAll(\"Invalid Depth\", {0.9,0.2,0.2})\n            return\n        elseif newWidth<0.1 or newDepth<0.1 then\n            broadcastToAll(\"Scale cannot go below 0.1\", {0.9,0.2,0.2})\n            return\n        elseif newWidth>12 or newDepth>12 then\n            broadcastToAll(\"Scale should not go over 12 (world size limitation)\", {0.9,0.2,0.2})\n            return\n        else\n            changeTableScale(math.abs(newWidth), math.abs(newDepth))\n            broadcastToAll(\"Scale applied.\", {0.2,0.9,0.2})\n        end\n    end\nend\n\n--Checks/unchecks move box for hands\nfunction click_checkMove(_, color)\n    if permissionCheck(color) then\n        local find_func = function(o) return o.click_function==\"click_checkMove\" end\n        if checkData.move == true then\n            checkData.move = false\n            local buttonEntry = findButton(self, find_func)\n            self.editButton({index=buttonEntry.index, label=\"\"})\n        else\n            checkData.move = true\n            local buttonEntry = findButton(self, find_func)\n            self.editButton({index=buttonEntry.index, label=string.char(10008)})\n        end\n    end\nend\n\n--Checks/unchecks scale box for hands\n--This button was disabled for technical reasons\n--[[\nfunction click_checkScale(_, color)\n    if permissionCheck(color) then\n        local find_func = function(o) return o.click_function==\"click_checkScale\" end\n        if checkData.scale == true then\n            checkData.scale = false\n            local buttonEntry = findButton(self, find_func)\n            self.editButton({index=buttonEntry.index, label=\"\"})\n        else\n            checkData.scale = true\n            local buttonEntry = findButton(self, find_func)\n            self.editButton({index=buttonEntry.index, label=string.char(10008)})\n        end\n    end\nend\n]]\n\n--Alters scale of elements and moves them\nfunction changeTableScale(width, depth)\n    --Scaling factors used to translate scale to position offset\n    local width2pos = (width-1) * 18\n    local depth2pos = (depth-1) * 18\n\n    --Hand zone movement\n    if checkData.move == true then\n        for _, pc in ipairs(ref_playerColor) do\n            if Player[pc].getHandCount() > 0 then\n                moveHandZone(Player[pc], width2pos, depth2pos)\n            end\n        end\n    end\n    --Hand zone scaling\n    --The button to enable this was disabled for technical reasons\n    if checkData.scale == true then\n        for _, pc in ipairs(ref_playerColor) do\n            if Player[pc].getHandCount() > 0 then\n                scaleHandZone(Player[pc], width, depth)\n            end\n        end\n    end\n\n    --Resizing table elements\n    obj_side_top.setScale({width, 1, 1})\n    obj_side_bot.setScale({width, 1, 1})\n    obj_side_lef.setScale({depth, 1, 1})\n    obj_side_rig.setScale({depth, 1, 1})\n    obj_surface.setScale({width, 1, depth})\n\n    --Moving table elements to accomodate new scale\n    obj_side_lef.setPosition({-width2pos,tableHeightOffset,0})\n    obj_side_rig.setPosition({ width2pos,tableHeightOffset,0})\n    obj_side_top.setPosition({0,tableHeightOffset, depth2pos})\n    obj_side_bot.setPosition({0,tableHeightOffset,-depth2pos})\n    obj_leg1.setPosition({-width2pos,tableHeightOffset,-depth2pos})\n    obj_leg2.setPosition({-width2pos,tableHeightOffset, depth2pos})\n    obj_leg3.setPosition({ width2pos,tableHeightOffset, depth2pos})\n    obj_leg4.setPosition({ width2pos,tableHeightOffset,-depth2pos})\n    self.setPosition(obj_leg4.positionToWorld({-22.12, 8.74,-19.16}))\n    --Only enabled when changing tableHeightOffset\n    --obj_surface.setPosition({0,tableHeightOffset,0})\nend\n\n--Move hand zone, p=player reference, facts are scaling factors\nfunction moveHandZone(p, width2pos, depth2pos)\n    local widthX = obj_side_rig.getPosition().x\n    local depthZ = obj_side_top.getPosition().z\n    for i=1, p.getHandCount() do\n        local handT = p.getHandTransform()\n        local pos = handT.position\n        local y = handT.rotation.y\n\n        if y<45 or y>320 or y>135 and y<225 then\n            if pos.z > 0 then\n                pos.z = pos.z + depth2pos - depthZ\n            else\n                pos.z = pos.z - depth2pos + depthZ\n            end\n        else\n            if pos.x > 0 then\n                pos.x = pos.x + width2pos - widthX\n            else\n                pos.x = pos.x - width2pos + widthX\n            end\n        end\n\n        --Only enabled when changing tableHeightOffset\n        --pos.y = tableHeightOffset + 14\n\n        handT.position = pos\n        p.setHandTransform(handT, i)\n    end\nend\n\n\n---Scales hand zones, p=player reference, facts are scaling factors\nfunction scaleHandZone(p, width, depth)\n    local widthFact = width / obj_side_top.getScale().x\n    local depthFact = depth / obj_side_lef.getScale().x\n    for i=1, p.getHandCount() do\n        local handT = p.getHandTransform()\n        local scale = handT.scale\n        local y = handT.rotation.y\n        if y<45 or y>320 or y>135 and y<225 then\n            scale.x = scale.x * widthFact\n        else\n            scale.x = scale.x * depthFact\n        end\n        handT.scale = scale\n        p.setHandTransform(handT, i)\n    end\nend\n\n\n\n--Information gathering\n\n\n\n--Checks if a color is promoted or host\nfunction permissionCheck(color)\n    if Player[color].host==true or Player[color].promoted==true then\n        return true\n    else\n        return false\n    end\nend\n\n--Locates a string saved within memory file\nfunction findInImageDataIndex(...)\n    for _, str in ipairs({...}) do\n        for i, v in ipairs(tableImageData) do\n            if v.url == str or v.name == str then\n                return i\n            end\n        end\n    end\n    return nil\nend\n\n--Round number (num) to the Nth decimal (dec)\nfunction round(num, dec)\n  local mult = 10^(dec or 0)\n  return math.floor(num * mult + 0.5) / mult\nend\n\n--Locates a button with a helper function\nfunction findButton(obj, func)\n    if func==nil then error(\"No func supplied to findButton\") end\n    for _, v in ipairs(obj.getButtons()) do\n        if func(v) then\n            return v\n        end\n    end\n    return nil\nend\n\n\n\n--Creation of buttons/inputs\n\n\n\nfunction createOpenCloseButton()\n    local tooltip = \"Open Table Control Panel\"\n    if controlActive then\n        tooltip = \"Close Table Control Panel\"\n    end\n    self.createButton({\n        click_function=\"click_toggleControl\", function_owner=self,\n        position={0,0,0}, rotation={-45,0,0}, height=400, width=400,\n        color={1,1,1,0}, tooltip=tooltip\n    })\nend\n\nfunction createSurfaceInput()\n    local currentURL = obj_surface.getCustomObject().diffuse\n    local nickname = \"\"\n    if findInImageDataIndex(currentURL) ~= nil then\n        nickname = tableImageData[findInImageDataIndex(currentURL)].name\n    end\n    self.createInput({\n        label=\"Nickname\", input_function=\"none\", function_owner=self,\n        alignment=3, position={0,0,2}, height=224, width=4000,\n        font_size=200, tooltip=\"Enter nickname for table image (only used for save)\",\n        value=nickname\n    })\n    self.createInput({\n        label=\"URL\", input_function=\"none\", function_owner=self,\n        alignment=3, position={0,0,3}, height=224, width=4000,\n        font_size=200, tooltip=\"Enter URL for tabletop image\",\n        value=currentURL\n    })\nend\n\nfunction createSurfaceButtons()\n    --Label\n    self.createButton({\n        label=\"Tabletop Surface Image\", click_function=\"none\",\n        position={0,0,1}, height=0, width=0, font_size=300, font_color={1,1,1}\n    })\n    --Functional\n    self.createButton({\n        label=\"Apply Image\\nTo Table\", click_function=\"click_applySurface\",\n        function_owner=self, tooltip=\"Apply URL as table image\",\n        position={2,0,4}, height=440, width=1400, font_size=200,\n    })\n    self.createButton({\n        label=\"Save Image\\nTo Memory\", click_function=\"click_saveSurface\",\n        function_owner=self, tooltip=\"Record URL into memory (requires nickname)\",\n        position={-2,0,4}, height=440, width=1400, font_size=200,\n    })\n    --Label\n    self.createButton({\n        label=\"Load From Memory\", click_function=\"none\",\n        position={0,0,5.5}, height=0, width=0, font_size=300, font_color={1,1,1}\n    })\n    --Saves, created dynamically from memory file\n    for i, memoryEntry in ipairs(tableImageData) do\n        --Load\n        local funcName = i..\"loadMemory\"\n        local func = function(x,y) click_loadMemory(x,y,i) end\n        self.setVar(funcName, func)\n        self.createButton({\n            label=memoryEntry.name, click_function=funcName,\n            function_owner=self, tooltip=memoryEntry.url, font_size=200,\n            position={-0.6,0,6.5+0.5*(i-1)}, height=240, width=3300,\n        })\n        --Delete\n        local funcName = i..\"deleteMemory\"\n        local func = function(x,y) click_deleteMemory(x,y,i) end\n        self.setVar(funcName, func)\n        self.createButton({\n            label=\"DELETE\", click_function=funcName,\n            function_owner=self, tooltip=\"\",\n            position={3.6,0,6.5+0.5*(i-1)}, height=240, width=600,\n            font_size=160, font_color={1,0,0}, color={0.8,0.8,0.8}\n        })\n    end\nend\n\nfunction createScaleInput()\n    self.createInput({\n        label=string.char(8644), input_function=\"none\", function_owner=self,\n        alignment=3, position={-8.5,0,2}, height=224, width=400,\n        font_size=200, tooltip=\"Table Width\",\n        value=round(obj_side_top.getScale().x, 1)\n    })\n    self.createInput({\n        label=string.char(8645), input_function=\"none\", function_owner=self,\n        alignment=3, position={-7.5,0,2}, height=224, width=400,\n        font_size=200, tooltip=\"Table Depth\",\n        value=round(obj_side_lef.getScale().x, 1)\n    })\nend\n\nfunction createScaleButtons()\n    --Labels\n    self.createButton({\n        label=\"Table Scale\", click_function=\"none\",\n        position={-8,0,1}, height=0, width=0, font_size=300, font_color={1,1,1}\n    })\n    self.createButton({\n        label=string.char(8644)..\"            \"..string.char(8645),\n        click_function=\"none\",\n        position={-8,0,2}, height=0, width=0, font_size=300, font_color={1,1,1}\n    })\n    self.createButton({\n        label=\"Move Hands:\", click_function=\"none\",\n        position={-8.3,0,3}, height=0, width=0, font_size=200, font_color={1,1,1}\n    })\n    --Disabled due to me removing the feature for technical reasons\n    --[[\n    self.createButton({\n        label=\"Scale Hands:\", click_function=\"none\",\n        position={-8.3,0,4}, height=0, width=0, font_size=200, font_color={1,1,1}\n    })\n    ]]\n    --Checkboxes\n    local label = \"\"\n    if checkData.move == true then label = string.char(10008) end\n    self.createButton({\n        label=label, click_function=\"click_checkMove\",\n        function_owner=self, tooltip=\"Check to move hands when table is rescaled\",\n        position={-6.8,0,3}, height=224, width=224, font_size=200,\n    })\n    --[[\n    local label = \"\"\n    if checkData.scale == true then label = string.char(10008) end\n    self.createButton({\n        label=label, click_function=\"click_checkScale\",\n        function_owner=self, tooltip=\"Check to scale the width of hands when table is rescaled\",\n        position={-6.8,0,4}, height=224, width=224, font_size=200,\n    })\n    ]]\n    --Apply button\n    self.createButton({\n        label=\"Apply Scale\", click_function=\"click_applyScale\",\n        function_owner=self, tooltip=\"Apply width/depth to table\",\n        position={-8,0,4}, height=440, width=1400, font_size=200,\n    })\nend\n\n\n\n\n\n--Data tables\n\n\n\n\nref_noninteractable = {\n    \"afc863\",\"c8edca\",\"393bf7\",\"12c65e\",\"f938a2\",\"9f95fd\",\"35b95f\",\n    \"5af8f2\",\"4ee1f2\",\"bd69bd\"\n}\n\nref_playerColor = {\n    \"White\", \"Brown\", \"Red\", \"Orange\", \"Yellow\",\n    \"Green\", \"Teal\", \"Blue\", \"Purple\", \"Pink\", \"Black\"\n}\n\n--Dummy function, absorbs unwanted triggers\nfunction none() end",
+      "LuaScriptState": "{\"cd\":{\"move\":true,\"scale\":false},\"tid\":[{\"name\":\"Felt - Green\",\"url\":\"https://i.imgur.com/eHXDjyy.jpg\"},{\"name\":\"Felt - Red\",\"url\":\"https://i.imgur.com/DbPelDi.jpg\"},{\"name\":\"Felt - Grey\",\"url\":\"https://i.imgur.com/N0O6aqj.jpg\"}]}",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "f938a2",
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -9.0,
+        "posZ": -45.0,
+        "rotX": -1.01777751E-13,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 3.5,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/879750610978796471/14ED0DBD593370733A0309B0950004F33EB9FACA/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "9f95fd",
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": -45.0,
+        "posY": -9.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 3.5,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/879750610978796471/14ED0DBD593370733A0309B0950004F33EB9FACA/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "35b95f",
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -9.0,
+        "posZ": 45.0,
+        "rotX": -1.01777751E-13,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 3.5,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/879750610978796471/14ED0DBD593370733A0309B0950004F33EB9FACA/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "5af8f2",
+      "Name": "Custom_Assetbundle",
+      "Transform": {
+        "posX": 45.0,
+        "posY": -9.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 270.0,
+        "rotZ": 0.0,
+        "scaleX": 3.5,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomAssetbundle": {
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/879750610978796471/14ED0DBD593370733A0309B0950004F33EB9FACA/",
+        "AssetbundleSecondaryURL": "",
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "LoopingEffectIndex": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "4ee1f2",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -9.0,
+        "posZ": 0.0,
+        "rotX": 359.983124,
+        "rotY": -0.00189453643,
+        "rotZ": 359.920135,
+        "scaleX": 3.5,
+        "scaleY": 1.0,
+        "scaleZ": 3.5
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": true,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/879750610978796176/4A5A65543B98BCFBF57E910D06EC984208223D38/",
+        "DiffuseURL": "https://i.imgur.com/eHXDjyy.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "ffb42f",
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 0.498476744,
+        "posY": 1.58347249,
+        "posZ": 0.585907638,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 16.5330658,
+        "scaleY": 1.0,
+        "scaleZ": 16.5330658
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/792008635622503591/7826711DAB41664D767FB4C43FE895F51EC40B24/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.1,
+          "MergeDistancePixels": 15.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "function onLoad(save_state)\n    log(self.getBoundsNormalized())\nend",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 1.07093155,
+            "y": 0.0499999523,
+            "z": -1.66649234
+          },
+          "Rotation": {
+            "x": -1.52257087E-06,
+            "y": 0.08197593,
+            "z": -2.67124847E-07
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.929168,
+            "y": 0.0499999523,
+            "z": -1.66649234
+          },
+          "Rotation": {
+            "x": 2.416157E-06,
+            "y": 359.985931,
+            "z": 1.26978321E-07
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.7889453,
+            "y": 0.0499999523,
+            "z": -1.66649687
+          },
+          "Rotation": {
+            "x": 1.23728853E-07,
+            "y": 359.973969,
+            "z": 8.19465E-09
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.6494931,
+            "y": 0.0499999523,
+            "z": -1.666493
+          },
+          "Rotation": {
+            "x": -2.50673838E-06,
+            "y": 359.983063,
+            "z": 1.18834316E-06
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.5108113,
+            "y": 0.0499999523,
+            "z": -1.66649246
+          },
+          "Rotation": {
+            "x": -5.06229E-08,
+            "y": 359.983215,
+            "z": -4.73954458E-07
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.363654584,
+            "y": 0.0499999523,
+            "z": -1.66649246
+          },
+          "Rotation": {
+            "x": 4.121338E-06,
+            "y": 359.980316,
+            "z": 7.922491E-08
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.363654584,
+            "y": 0.0499999523,
+            "z": -1.530122
+          },
+          "Rotation": {
+            "x": 2.538687E-06,
+            "y": 359.9835,
+            "z": 2.26554889E-07
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.5108113,
+            "y": 0.0499999523,
+            "z": -1.530122
+          },
+          "Rotation": {
+            "x": 1.76106937E-07,
+            "y": 359.991547,
+            "z": -3.3442775E-06
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.6494931,
+            "y": 0.0499999523,
+            "z": -1.530122
+          },
+          "Rotation": {
+            "x": -2.97759755E-07,
+            "y": 359.980316,
+            "z": 1.72497778E-06
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.7889453,
+            "y": 0.0499999523,
+            "z": -1.530122
+          },
+          "Rotation": {
+            "x": -3.43702482E-07,
+            "y": 359.8497,
+            "z": -2.40702843E-06
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.929168,
+            "y": 0.0499999523,
+            "z": -1.53012192
+          },
+          "Rotation": {
+            "x": -2.18610967E-06,
+            "y": 359.983215,
+            "z": -3.05585672E-07
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 1.07093155,
+            "y": 0.0499999523,
+            "z": -1.53012192
+          },
+          "Rotation": {
+            "x": -1.9538011E-07,
+            "y": 359.983276,
+            "z": -6.40035068E-07
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.236258581,
+            "y": 0.0499999523,
+            "z": -0.574672
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.578741,
+            "y": 0.0499999523,
+            "z": 0.15965572
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.431655377,
+            "y": 0.0499999523,
+            "z": 0.06190955
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.60462213,
+            "y": 0.0499999523,
+            "z": -0.05989801
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 1.79799867,
+            "y": 0.0499999523,
+            "z": 1.6315074
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 1.67379212,
+            "y": 0.0499999523,
+            "z": 1.63179982
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 1.558016,
+            "y": 0.0499999523,
+            "z": 1.63326371
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 1.43963087,
+            "y": 0.0499999523,
+            "z": 1.62662578
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 1.31720316,
+            "y": 0.0499999523,
+            "z": 1.62919974
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 1.19827056,
+            "y": 0.0499999523,
+            "z": 1.63253808
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 1.079215,
+            "y": 0.0499999523,
+            "z": 1.63087273
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.9593833,
+            "y": 0.0499999523,
+            "z": 1.62828577
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.8351767,
+            "y": 0.0499999523,
+            "z": 1.62857807
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.7194006,
+            "y": 0.0499999523,
+            "z": 1.63004208
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.601015568,
+            "y": 0.0499999523,
+            "z": 1.623404
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.478587,
+            "y": 0.0499999523,
+            "z": 1.625978
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.35965395,
+            "y": 0.0499999523,
+            "z": 1.629316
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.2405988,
+            "y": 0.0499999523,
+            "z": 1.62765086
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.118760012,
+            "y": 0.0499999523,
+            "z": 1.62803376
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.00334353652,
+            "y": 0.0499999523,
+            "z": 1.62830031
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.125404626,
+            "y": 0.0499999523,
+            "z": 1.63158286
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.244493768,
+            "y": 0.0499999523,
+            "z": 1.631807
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.3605247,
+            "y": 0.0499999523,
+            "z": 1.63499987
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.4811877,
+            "y": 0.0499999523,
+            "z": 1.63072562
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.6018283,
+            "y": 0.0499999523,
+            "z": 1.62795627
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.7187265,
+            "y": 0.0499999523,
+            "z": 1.63047969
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.839323461,
+            "y": 0.0499999523,
+            "z": 1.630724
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.9584125,
+            "y": 0.0499999523,
+            "z": 1.63094819
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.07900953,
+            "y": 0.0499999523,
+            "z": 1.631195
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.20109189,
+            "y": 0.0499999523,
+            "z": 1.63296938
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.32319427,
+            "y": 0.0499999523,
+            "z": 1.63323629
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.44235039,
+            "y": 0.0499999523,
+            "z": 1.62893927
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.56139731,
+            "y": 0.0499999523,
+            "z": 1.63217688
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.677493,
+            "y": 0.0499999523,
+            "z": 1.63085079
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.79808974,
+            "y": 0.0499999523,
+            "z": 1.63109529
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.307977885,
+            "y": 0.0499999523,
+            "z": 0.819541633
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 1.36873412,
+            "y": 0.0499999523,
+            "z": 1.11774158
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.409908,
+            "y": 0.0499999523,
+            "z": 1.22359526
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.476005524,
+            "y": 0.0499999523,
+            "z": 1.44816327
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.183350146,
+            "y": 0.0499999523,
+            "z": 1.0232743
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.743459761,
+            "y": 0.0499999523,
+            "z": 0.337694645
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 1.62698781,
+            "y": 0.0499999523,
+            "z": -0.142063364
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 1.46021914,
+            "y": 0.0499999523,
+            "z": -0.470118582
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 1.60839117,
+            "y": 0.0499999523,
+            "z": -1.3319875
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.452421367,
+            "y": 0.0499999523,
+            "z": -0.837281346
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.05143653,
+            "y": 0.0499999523,
+            "z": -1.511568
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.260867834,
+            "y": 0.0499999523,
+            "z": -1.5425545
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.45066464,
+            "y": 0.0499999523,
+            "z": -1.00794291
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.5356077,
+            "y": 0.0499999523,
+            "z": -0.8333668
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.43147171,
+            "y": 0.0499999523,
+            "z": 0.125616491
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.20701158,
+            "y": 0.0499999523,
+            "z": 1.29866576
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.450514138,
+            "y": 0.0499999523,
+            "z": -0.173757479
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.5916462,
+            "y": 0.0499999523,
+            "z": -0.0572139323
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 1.8020277,
+            "y": 0.0499999523,
+            "z": 1.557032
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 1.67302978,
+            "y": 0.0499999523,
+            "z": 1.55933022
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 1.55341434,
+            "y": 0.0499999523,
+            "z": 1.74154651
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 1.4361136,
+            "y": 0.0499999523,
+            "z": 1.740224
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 1.31439066,
+            "y": 0.0499999523,
+            "z": 1.557486
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 1.19476509,
+            "y": 0.0499999523,
+            "z": 1.55852973
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 1.07724357,
+            "y": 0.0499999523,
+            "z": 1.5588243
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.961156547,
+            "y": 0.0499999523,
+            "z": 1.74218285
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.833310962,
+            "y": 0.0499999523,
+            "z": 1.74212515
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.7203975,
+            "y": 0.0499999523,
+            "z": 1.55644166
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.6008025,
+            "y": 0.0499999523,
+            "z": 1.74100363
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.468235075,
+            "y": 0.0499999523,
+            "z": 1.55746841
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.358001977,
+            "y": 0.0499999523,
+            "z": 1.559603
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.23971802,
+            "y": 0.0499999523,
+            "z": 1.55139172
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": 0.117756948,
+            "y": 0.0499999523,
+            "z": 1.55362856
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.00299035059,
+            "y": 0.0499999523,
+            "z": 1.74054623
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.1285006,
+            "y": 0.0499999523,
+            "z": 1.55929542
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.248167172,
+            "y": 0.0499999523,
+            "z": 1.55564785
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.359176427,
+            "y": 0.0499999523,
+            "z": 1.55611384
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.4834934,
+            "y": 0.0499999523,
+            "z": 1.55719829
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.6054647,
+            "y": 0.0499999523,
+            "z": 1.55826235
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.7262734,
+            "y": 0.0499999523,
+            "z": 1.5581435
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.837114751,
+            "y": 0.0499999523,
+            "z": 1.741751
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.9567917,
+            "y": 0.0499999523,
+            "z": 1.55693042
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.08108807,
+            "y": 0.0499999523,
+            "z": 1.74036038
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.2019583,
+            "y": 0.0499999523,
+            "z": 1.55320489
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.31740129,
+            "y": 0.0499999523,
+            "z": 1.74030435
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.44293177,
+            "y": 0.0499999523,
+            "z": 1.556708
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.56141543,
+            "y": 0.0499999523,
+            "z": 1.554223
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.67752278,
+            "y": 0.0499999523,
+            "z": 1.55523574
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.80186,
+            "y": 0.0499999523,
+            "z": 1.55397463
+          },
+          "Tags": []
+        }
+      ]
+    },
+    {
+      "GUID": "52c93d",
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -46.366787,
+        "posY": 1.56173444,
+        "posZ": -49.4649658,
+        "rotX": 359.983917,
+        "rotY": 179.88269,
+        "rotZ": 359.917267,
+        "scaleX": 8.822735,
+        "scaleY": 1.0,
+        "scaleZ": 8.822735
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9559999,
+        "g": 0.39199242,
+        "b": 0.112992413
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/792008787919883082/42A01E67367D10330FECA3F6ED2DBDA7E1054AC5/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/792008787919883294/6C4C04B13F8280A1BEB5BBEBE4812AF3FDE6DE96/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": -0.248411685,
+            "y": 0.100000426,
+            "z": -0.151310638
+          },
+          "Rotation": {
+            "x": 0.00212183315,
+            "y": 359.965973,
+            "z": 0.000384516839
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.945906341,
+            "y": 0.100000307,
+            "z": -0.609389544
+          },
+          "Rotation": {
+            "x": 0.00212183315,
+            "y": 359.965973,
+            "z": 0.000384516839
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.09248638,
+            "y": 0.100000381,
+            "z": -0.60947603
+          },
+          "Rotation": {
+            "x": 0.00212183315,
+            "y": 359.965973,
+            "z": 0.000384516839
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.243997321,
+            "y": 0.100000411,
+            "z": 0.06325778
+          },
+          "Rotation": {
+            "x": 0.00212183315,
+            "y": 359.965973,
+            "z": 0.000384516839
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.05409003,
+            "y": 0.100000389,
+            "z": 0.0721716657
+          },
+          "Rotation": {
+            "x": 0.00212183315,
+            "y": 359.965973,
+            "z": 0.000384516839
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.04688454,
+            "y": 0.100000329,
+            "z": -0.150266856
+          },
+          "Rotation": {
+            "x": 0.00212183315,
+            "y": 359.965973,
+            "z": 0.000384516839
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.0519646853,
+            "y": 0.100000359,
+            "z": 0.281514049
+          },
+          "Rotation": {
+            "x": 0.00212183315,
+            "y": 359.965973,
+            "z": 0.000384516839
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.244052932,
+            "y": 0.100000352,
+            "z": 0.272925526
+          },
+          "Rotation": {
+            "x": 0.00212183315,
+            "y": 359.965973,
+            "z": 0.000384516839
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.7868026,
+            "y": 0.1000004,
+            "z": -0.607820868
+          },
+          "Rotation": {
+            "x": 0.00212183315,
+            "y": 359.965973,
+            "z": 0.000384516839
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.6453467,
+            "y": 0.100000344,
+            "z": -0.6093848
+          },
+          "Rotation": {
+            "x": 0.00212183315,
+            "y": 359.965973,
+            "z": 0.000384516839
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.4284287,
+            "y": 0.100003034,
+            "z": -0.143259615
+          },
+          "Rotation": {
+            "x": 2.53453277E-06,
+            "y": 0.00476948963,
+            "z": 180.0
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.627146959,
+            "y": 0.09999658,
+            "z": -0.1453462
+          },
+          "Rotation": {
+            "x": 1.908758E-06,
+            "y": 0.007584819,
+            "z": 180.0
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.8309759,
+            "y": 0.100001782,
+            "z": -0.145885751
+          },
+          "Rotation": {
+            "x": -2.10491339E-06,
+            "y": 0.0216885787,
+            "z": 180.0
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.0428865,
+            "y": 0.100006215,
+            "z": -0.144315779
+          },
+          "Rotation": {
+            "x": -1.65301287E-06,
+            "y": 359.991943,
+            "z": -8.989433E-07
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.04933679,
+            "y": 0.09998954,
+            "z": 0.06913298
+          },
+          "Rotation": {
+            "x": 3.70986584E-07,
+            "y": 359.985229,
+            "z": -2.95802948E-07
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.8384952,
+            "y": 0.1000144,
+            "z": 0.07259234
+          },
+          "Rotation": {
+            "x": -1.09195E-06,
+            "y": 359.9757,
+            "z": -6.31985131E-07
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.6377629,
+            "y": 0.100008622,
+            "z": 0.07428503
+          },
+          "Rotation": {
+            "x": 2.16236572E-06,
+            "y": -6.59609E-05,
+            "z": 1.09331052E-06
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.437643766,
+            "y": 0.100016005,
+            "z": 0.06382506
+          },
+          "Rotation": {
+            "x": 3.54349982E-06,
+            "y": 0.00181009609,
+            "z": -3.57139157E-07
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.434250921,
+            "y": 0.100000232,
+            "z": 0.280426234
+          },
+          "Rotation": {
+            "x": -1.39730753E-06,
+            "y": 359.978424,
+            "z": -1.715444E-06
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.634051859,
+            "y": 0.099986665,
+            "z": 0.278610736
+          },
+          "Rotation": {
+            "x": -2.3699738E-06,
+            "y": 359.976318,
+            "z": 9.32627344E-08
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.8323916,
+            "y": 0.100015283,
+            "z": 0.280710369
+          },
+          "Rotation": {
+            "x": 1.07181677E-06,
+            "y": 359.974854,
+            "z": 1.96409064E-06
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.0413028,
+            "y": 0.100006126,
+            "z": 0.2852499
+          },
+          "Rotation": {
+            "x": 3.613465E-08,
+            "y": 359.987457,
+            "z": -1.22439883E-06
+          },
+          "Tags": []
+        }
+      ]
+    },
+    {
+      "GUID": "52af3f",
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 46.18989,
+        "posY": 1.46149755,
+        "posZ": 49.25261,
+        "rotX": 359.983276,
+        "rotY": 179.930008,
+        "rotZ": 359.919617,
+        "scaleX": 8.822486,
+        "scaleY": 1.0,
+        "scaleZ": 8.822486
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.140084773,
+        "g": 0.446260333,
+        "b": 0.7961672
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/792008787919940881/FAC9C883D94040F1F3B4A468CB4E00D99F4248B4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/792008787919941235/1DC1825CBA80690BE471451B8BBBAAB0D7DF4A13/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": -0.00826928951,
+            "y": 0.100186385,
+            "z": -0.08488323
+          },
+          "Rotation": {
+            "x": 359.992767,
+            "y": 0.005288232,
+            "z": -0.00103281252
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.189114451,
+            "y": 0.0999810845,
+            "z": -0.08417871
+          },
+          "Rotation": {
+            "x": 359.9934,
+            "y": 359.993744,
+            "z": -0.00164732838
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.3698422,
+            "y": 0.100201517,
+            "z": -0.08417936
+          },
+          "Rotation": {
+            "x": -0.00418366,
+            "y": -0.001273124,
+            "z": -0.00345240068
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.549444735,
+            "y": 0.09970941,
+            "z": -0.08453722
+          },
+          "Rotation": {
+            "x": -0.00413642172,
+            "y": 359.987427,
+            "z": -0.00355339167
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.7269458,
+            "y": 0.0997644961,
+            "z": -0.08415679
+          },
+          "Rotation": {
+            "x": -0.003983632,
+            "y": 359.9514,
+            "z": -0.00370220677
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.9120092,
+            "y": 0.09993516,
+            "z": -0.08418433
+          },
+          "Rotation": {
+            "x": -0.004897036,
+            "y": 0.0136860358,
+            "z": -0.00360043487
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.09357,
+            "y": 0.09994206,
+            "z": -0.08418266
+          },
+          "Rotation": {
+            "x": -0.00277655525,
+            "y": 0.0107323388,
+            "z": -0.0045481855
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.539846957,
+            "y": 0.100000218,
+            "z": -0.351382375
+          },
+          "Rotation": {
+            "x": 359.992035,
+            "y": 359.98172,
+            "z": 359.90686
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.6892543,
+            "y": 0.100000188,
+            "z": -0.350845844
+          },
+          "Rotation": {
+            "x": 359.992035,
+            "y": 359.98172,
+            "z": 359.90686
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.8585763,
+            "y": 0.100000188,
+            "z": -0.35265103
+          },
+          "Rotation": {
+            "x": 359.992035,
+            "y": 359.98172,
+            "z": 359.90686
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -1.00855446,
+            "y": 0.10000021,
+            "z": -0.3559495
+          },
+          "Rotation": {
+            "x": 359.992035,
+            "y": 359.98172,
+            "z": 359.90686
+          },
+          "Tags": []
+        },
+        {
+          "Position": {
+            "x": -0.9018518,
+            "y": 0.100000225,
+            "z": 0.529939532
+          },
+          "Rotation": {
+            "x": 359.992035,
+            "y": 359.98175,
+            "z": 359.90686
+          },
+          "Tags": []
+        }
+      ]
+    },
+    {
+      "GUID": "19277a",
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -24.1467686,
+        "posY": 4.18347263,
+        "posZ": 21.273592,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 11.112381,
+        "scaleY": 5.1,
+        "scaleZ": 10.1051636
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "762d03",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -31.951828,
+        "posY": 1.89930844,
+        "posZ": -42.7214355,
+        "rotX": 359.9215,
+        "rotY": 299.957245,
+        "rotZ": 359.974854,
+        "scaleX": 1.05,
+        "scaleY": 1.05,
+        "scaleZ": 1.05
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1770446424994417683/036284890A270F47B8F5779DD21B136EBDA76F47/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1770446424994434189/43876DC6F423AFB949E5D8311AD154952A062682/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "a35b03",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -7.310587,
+        "posY": 1.82929671,
+        "posZ": -19.7366486,
+        "rotX": 90.0,
+        "rotY": 28.1460114,
+        "rotZ": 0.0,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "httpcloud3steamusercontentcomugc1770446424994417683036284890A270F47B8F5779DD21B136EBDA76F47.obj",
+        "DiffuseURL": "httpcloud3steamusercontentcomugc177044642499443418943876DC6F423AFB949E5D8311AD154952A062682.png",
+        "NormalURL": "httpcloud3steamusercontentcomugc177044642499443418943876DC6F423AFB949E5D8311AD154952A062682.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "664e4a",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -7.78837729,
+        "posY": 2.36839437,
+        "posZ": -21.1419239,
+        "rotX": 2.08154916E-06,
+        "rotY": 35.3193665,
+        "rotZ": -2.6409482E-06,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "httpcloud3steamusercontentcomugc1770446424994417683036284890A270F47B8F5779DD21B136EBDA76F47.obj",
+        "DiffuseURL": "httpcloud3steamusercontentcomugc177044642499443418943876DC6F423AFB949E5D8311AD154952A062682.png",
+        "NormalURL": "httpcloud3steamusercontentcomugc177044642499443418943876DC6F423AFB949E5D8311AD154952A062682.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "df9762",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -8.11321,
+        "posY": 1.82929647,
+        "posZ": -24.87326,
+        "rotX": 90.0,
+        "rotY": 1.59090376,
+        "rotZ": 0.0,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "httpcloud3steamusercontentcomugc1770446424994417683036284890A270F47B8F5779DD21B136EBDA76F47.obj",
+        "DiffuseURL": "httpcloud3steamusercontentcomugc177044642499443418943876DC6F423AFB949E5D8311AD154952A062682.png",
+        "NormalURL": "httpcloud3steamusercontentcomugc177044642499443418943876DC6F423AFB949E5D8311AD154952A062682.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "e95a37",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 22.00076,
+        "posY": 2.36839437,
+        "posZ": -21.00033,
+        "rotX": 2.69605653E-06,
+        "rotY": 359.9932,
+        "rotZ": -3.09844381E-06,
+        "scaleX": 2.0,
+        "scaleY": 2.0,
+        "scaleZ": 2.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "httpcloud3steamusercontentcomugc1770446424994417683036284890A270F47B8F5779DD21B136EBDA76F47.obj",
+        "DiffuseURL": "httpcloud3steamusercontentcomugc177044642499443418943876DC6F423AFB949E5D8311AD154952A062682.png",
+        "NormalURL": "httpcloud3steamusercontentcomugc177044642499443418943876DC6F423AFB949E5D8311AD154952A062682.png",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  ]
+}
